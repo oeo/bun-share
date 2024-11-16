@@ -1,0 +1,21 @@
+{
+  "name": "bun-share",
+  "version": "1.0.0",
+  "main": "module.js",
+  "bin": {
+    "bun-share": "./bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-bucket": "sh create-bucket.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.693.0",
+    "@aws-sdk/credential-provider-ini": "^3.693.0",
+    "@aws-sdk/shared-ini-file-loader": "^3.374.0"
+  }
+}
